@@ -1,0 +1,9 @@
+﻿<Window x:Class="client.noConfigFile"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="noConfigFile" Height="150" Width="300">
+    <StackPanel VerticalAlignment="Center">
+        <TextBlock Text="Failed to read configuration file" HorizontalAlignment="Center" FontSize="20" />
+        <Button x:Name="closeButton" Content="OK" FontSize="20" Click="closeButton_Click" />
+    </StackPanel>
+</Window>
